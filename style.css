@@ -1,0 +1,24 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    /* En este caso no es necesario el font-family */
+}
+
+.div{
+    width:100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    box-shadow:20px 20px 10px gray;
+    animation: slider 20s linear infinite;
+}
+
+@keyframes slider{
+    0%{background-image:url(/imagenes/pexels-cat-crawford-673653-1488401.jpg);}
+    20%{background-image: url(/imagenes/pexels-david-bartus-43782-1166209.jpg);}
+    40%{background-image:url(/imagenes/pexels-pixabay-206359.jpg);}
+    60%{background-image:url(/imagenes/pexels-samandgos-709552.jpg);}
+    80%{background-image:url(/imagenes/pexels-souvenirpixels-417074.jpg);}
+    100%{background-image:url(/imagenes/pexels-walidphotoz-847402.jpg);}
+}
